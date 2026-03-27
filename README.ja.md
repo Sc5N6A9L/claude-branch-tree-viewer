@@ -66,8 +66,6 @@ Claude.aiのテーマに自動で追従する。
 3. Tampermonkeyのダイアログで **「インストール」** をクリック
 4. [claude.ai](https://claude.ai) を開くと、ツールバーにブランチアイコン（⎇）が追加される
 
-> **[Greasy Fork](https://greasyfork.org/)** でも公開しています（"Claude Branch Tree Viewer" で検索）。
-
 ## 使い方
 
 1. [claude.ai](https://claude.ai) の任意の会話を開く
@@ -87,7 +85,7 @@ Claude.aiのテーマに自動で追従する。
 | **スクリプトマネージャ** | Tampermonkey, Violentmonkey, Greasemonkey |
 | **動作確認** | Claude.ai（2026年3月時点） |
 
-> **注意:** Claude.aiの内部DOMやAPI構造はアップデートで変わる可能性がある。スクリプトが動作しなくなった場合は [Issue](https://github.com/Sc5N6A9L/claude-branch-tree-viewer/issues) を開いてほしい。
+> **注意:** Claude.aiの内部DOMやAPI構造はアップデートで変わる可能性がある。
 
 ## 仕組み
 
@@ -100,10 +98,6 @@ Claude.aiの内部API（`/api/organizations/.../chat_conversations/...?tree=True
 - **ブランチ切り替えボタン:** Claude.aiの◀▶ボタンでブランチを切り替えた場合、ツリーの更新に最大約1.5秒かかることがある（ポーリング間隔）。多くの場合はMutationObserverで即時検知される。
 - **非常に大きな会話:** 数百のブランチがある会話ではレンダリングに若干の遅延が生じる可能性がある。
 - **DOM構造の変更:** Anthropic側のフロントエンド更新により、ツールバーボタンの挿入やメッセージ検出が壊れることがある。コアのツリーロジック（API利用）はより耐性がある。
-
-## コントリビュート
-
-バグ報告・機能提案のIssueや、Pull Requestを歓迎する。
 
 ## ライセンス
 
