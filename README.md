@@ -31,7 +31,7 @@ with a brief highlight animation.
 1. Install [Tampermonkey](https://www.tampermonkey.net/) 
    for your browser
 2. **[Click here to install the script]
-   (https://raw.githubusercontent.com/YOUR_USERNAME/claude-branch-tree-viewer/main/branch-tree-viewer.user.js)**
+   (https://raw.githubusercontent.com/Sc5N6A9L/claude-branch-tree-viewer/main/branch-tree-viewer.user.js)**
 3. Click "Install" on the Tampermonkey dialog
 4. Open [claude.ai](https://claude.ai) — the tree icon 
    appears in the toolbar
