@@ -48,8 +48,7 @@ with a brief highlight animation.
   (with Tampermonkey / Violentmonkey / Greasemonkey)
 - **Tested on**: Claude.ai (as of March 2026)
 - **Note**: Claude.ai's DOM structure may change 
-  with updates. If the script breaks, 
-  please open an issue.
+  with updates.
 
 ## Known Issues / Limitations
 
