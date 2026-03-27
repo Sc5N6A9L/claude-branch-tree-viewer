@@ -1,12 +1,11 @@
 # claude-branch-tree-viewer
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-green.svg)
+![Claude.ai](https://img.shields.io/badge/Claude.ai-userscript-purple.svg)
 
 > Tampermonkey userscript that visualizes Claude.ai conversation 
 > branches as an interactive tree — jump to any message, 
 > collapse subtrees, label nodes, and more.
-
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-green.svg)
-![Claude.ai](https://img.shields.io/badge/Claude.ai-userscript-purple.svg)
 
 ![screenshot](screenshots/tree-view.png)
 
