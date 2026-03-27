@@ -70,8 +70,6 @@ Automatically matches Claude.ai's theme. Works in both dark mode and light mode.
 3. Click **"Install"** on the Tampermonkey dialog that appears
 4. Open [claude.ai](https://claude.ai) — a branch icon (⎇) appears in the top toolbar
 
-> Also available on **[Greasy Fork](https://greasyfork.org/)** (search "Claude Branch Tree Viewer").
-
 ## Usage
 
 1. Open any conversation on [claude.ai](https://claude.ai)
