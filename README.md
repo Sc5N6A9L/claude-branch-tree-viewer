@@ -91,7 +91,7 @@ Automatically matches Claude.ai's theme. Works in both dark mode and light mode.
 | **Script Managers** | Tampermonkey, Violentmonkey, Greasemonkey |
 | **Tested on** | Claude.ai (March 2026) |
 
-> **Note:** Claude.ai's internal DOM and API structure may change without notice. If the script stops working after a Claude.ai update, please [open an issue](https://github.com/Sc5N6A9L/claude-branch-tree-viewer/issues).
+> **Note:** Claude.ai's internal DOM and API structure may change without notice.
 
 ## How It Works
 
@@ -104,10 +104,6 @@ No data is sent to any external server. Everything runs locally in your browser.
 - **Branch switching by arrow buttons:** When you use Claude.ai's built-in branch-switching arrows (◀ ▶), the tree updates within ~1.5 seconds (polling interval). The MutationObserver catches most changes faster, but some edge cases rely on the poll.
 - **Very large conversations:** Conversations with hundreds of branches may cause slight rendering delays.
 - **DOM changes:** If Anthropic updates Claude.ai's frontend structure, the toolbar button injection or message detection may break. The core tree logic (API-based) is more resilient.
-
-## Contributing
-
-Contributions are welcome. Feel free to open an issue for bug reports or feature suggestions, or submit a pull request.
 
 ## License
 
