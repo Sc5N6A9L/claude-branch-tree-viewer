@@ -7,7 +7,7 @@
 > branches as an interactive tree — jump to any message, 
 > collapse subtrees, label nodes, and more.
 
-![screenshot](screenshots/tree-view.png)
+<img width="746" height="541" alt="firefox 26 03 27 - 09 26 1061" src="https://github.com/user-attachments/assets/1584c0bb-23bc-40ca-8274-9dda28ebbc01" />
 
 ## Features
 
