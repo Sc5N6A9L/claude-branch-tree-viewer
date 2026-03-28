@@ -66,6 +66,8 @@ Claude.aiのテーマに自動で追従する。
 3. Tampermonkeyのダイアログで **「インストール」** をクリック
 4. [claude.ai](https://claude.ai) を開くと、ツールバーにブランチアイコン（⎇）が追加される
 
+> **[Greasy Fork](https://greasyfork.org/en/scripts/571332-claude-branch-tree-viewer)** でも公開しています
+
 ## 使い方
 
 1. [claude.ai](https://claude.ai) の任意の会話を開く
