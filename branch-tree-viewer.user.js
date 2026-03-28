@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Claude Branch Tree Viewer
 // @namespace    http://tampermonkey.net/
-// @version      0.8.1
+// @version      0.8.2
 // @description  Notion風トグル折畳・リサイズ対応・スクロール保持・キーボードショートカット対応
 // @author       You
 // @match        https://claude.ai/*
@@ -1017,10 +1017,10 @@
     /* ============ パネル本体 ============ */
     #cbt-panel {
       position: fixed;
-      top: 80px;
-      right: 16px;
-      width: 400px;
-      height: 520px;
+      top: 237px;
+      left: 5px;
+      width: 304px;
+      height: 429px;
       min-width: 260px;
       min-height: 180px;
       z-index: 2147483647;
