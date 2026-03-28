@@ -10,7 +10,8 @@
 
 Claude.aiでは過去のメッセージを編集すると会話が分岐するが、分岐の全体像を確認する手段が用意されていない。このスクリプトはフローティングパネルで会話ツリーを表示し、全体構造や今どのブランチにいるかを把握し、やりとりに名前を付けられるようにする。
 
-<img width="746" height="541" alt="Branch Tree Viewer スクリーンショット" src="https://github.com/user-attachments/assets/1584c0bb-23bc-40ca-8274-9dda28ebbc01" />
+
+<img width="715" height="501" alt="brave 26 03 28 - 15 17 1063" src="https://github.com/user-attachments/assets/d7f1ec65-c3ae-424d-bff9-7fd6b14d4cbd" />
 
 ## 機能
 
@@ -99,7 +100,7 @@ Claude.aiの内部API（`/api/organizations/.../chat_conversations/...?tree=True
 ## 既知の制限事項
 
 - **ブランチ切り替えボタン:** Claude.aiの◀▶ボタンでブランチを切り替えた場合、ツリーの更新に最大約1.5秒かかることがある（ポーリング間隔）。多くの場合はMutationObserverで即時検知される。
-- **非常に大きな会話:** 数百のブランチがある会話ではレンダリングに若干の遅延が生じる可能性がある。
+- **非常に大きな会話:** ブランチ数が多い会話ではレンダリングに若干の遅延が生じる可能性がある。
 - **DOM構造の変更:** Anthropic側のフロントエンド更新により、ツールバーボタンの挿入やメッセージ検出が壊れることがある。コアのツリーロジック（API利用）はより耐性がある。
 
 ## ライセンス
